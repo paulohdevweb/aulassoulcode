@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>   cadastro    </h2>
+    <!--
+        <form> conteiner do formulario
+        <input> textarea, select =campos do form
+        <label> rotulo dos inputs
+    -->
+    
+    <form>
+        <div>
+            <label for="cNome">NOME:</label>
+            <input type="text" id="cNome" name="nome" placeholder="Seu nome" required/>
+            
+        </div>
+
+        <div>
+            <label>Email:</label>
+            <input type="email" id="cEmail" name="email" placeholder=" seu email" required>
+        </div>
+        <div>
+            <label for="cSenha">Senha</label>
+            <input type="password" id="cSenha" name="senha "  placeholder="sua senha" required>
+        </div>
+        <div>
+            <label for="cTelefone">telefone</label>
+            <input type="tel" id="cTelefone" name="telefone" name="telefone" placeholder="seu telefone" required>
+     
+        </div>
+        <div>
+            <label for="cLinkedin">link do linkedin</label>
+            <input type="url" id="cLinkedin" name="linkedin" placeholder="seu linkedin">
+        </div>
+        <div>
+            <label for="cIdade">Idade</label>
+            <input type="number" min="0" max="130" required/>
+        </div> 
+        <div>
+            <label for="cDataNasc">Data nascimento</label>
+            <input type="date" min="2000-01-05" max="2024-10-24" id="cDataNasc" name="dataNasc" required/>
+        </div>
+        <div>
+            <label for="cFoto">Sua foto</label>
+            <input type="file" id="cFoto" name="foto" accept=".jpg, .pnj"/>
+            <br><small>arquivo de extensão .png/ <div class="jpg"></small>
+        </div>
+        <div>
+            <p>Sua linguagem favorita:</p>
+            <input type="radio" id="css" name="linguagem" required/>
+            <label for="html">HTML</label>
+
+            <input type="radio" id="javascript" name="linguagem" required/>
+            <label for="javascript">JAVASCRIPT</label>
+
+            <input type="radio" id="css" name="linguagem" required/>
+            <label for="css">CSS</label>        
+        </div>
+            <br>
+            <br>
+            <br>
+        <div>
+            <label for="cDescricao"> fala sobre você</label>
+            <br>
+            <br>
+            <textarea id="cDescricao" name="descricao" placeholder="sobre você , seus hobbys o que quiser"></textarea>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="cEscolaridade">escolaridade</label>
+            <select id="cEscolaridade" name="escolaridade" required>
+                <option disabled selected value=""> Ensino fundamental</option>
+                <option> Ensino medio completo</option>
+                <option> Ensino superior completo</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="checkbox" id="cReceberEmail" name="receberEmail"/>
+            <label for="cReceberEmail">quero receber emails promocionais </label>
+        </div>
+
+        <div>
+            <button type="submit">enviar</button>
+            <button type="reset">limpar</button>
+        </div>
+
+        <!-- indica para o form que esse botão é tem outra ação à ser programada-->
+        <div>
+            <button type="button">ajuda</button>
+        </div>
+******************************************************************************************************888
+*******************************************************************************************************88
+********************************************************************************************************8
+
+        <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Cadastro de Usuário</title>
+    </head>
+    <body>
+        <h2>Cadastro</h2>
+        <!--
+            <form> -> Conteiner do formulário
+            <input>, <textarea>, <select> -> Campos do formulário
+            <label> -> rótulo dos inputs
+        -->
+        <form>
+            <div>
+                <label for="cNome">Nome:</label>
+                <input value="José" type="text" id="cNome" name="nome" placeholder="Seu nome" required/>
+            </div>
+            <div>
+                <label for="cEmail">Email:</label>
+                <input type="email" id="cEmail" name="email" placeholder="Seu email" required/>
+            </div>
+            <div>
+                <label for="cSenha">Senha:</label>
+                <input type="password" id="cSenha" name="senha" placeholder="Sua senha" minlength="8" required/>
+            </div>
+            <div>
+                <label for="cTelefone">Telefone:</label>
+                <input type="tel" id="cTelefone" name="telefone" placeholder="Seu número" required/>
+            </div>
+            <div>
+                <label for="cLinkedin">Link do Linkedin:</label>
+                <input type="url" id="cLinkedin" name="linkedin" placeholder="Seu perfil"/>
+            </div>
+            <div>
+                <label for="cIdade">Idade:</label>
+                <input type="number" min="0" max="130" id="cIdade" name="idade" placeholder="Sua idade" required/>
+            </div>
+            <div>
+                <label for="cDataNasc">Data de Nascimento:</label>
+                <input type="date" min="2000-01-05" max="2024-10-24" id="cDataNasc" name="dataNasc" required/>
+            </div>
+            <div>
+                <label for="cFoto">Sua foto:</label>
+                <input type="file" id="cFoto" name="foto" accept=".jpg,.png"/>
+                <br/><small>Arquivo de extensão .png/.jpg</small>
+            </div>
+            <div>
+                <p>Sua linguagem favorita:</p>
+                <input type="radio" id="html" name="linguagem" required/>
+                <label for="html">HTML</label>
+
+                <input type="radio" id="css" name="linguagem" required/>
+                <label for="css">CSS</label>
+
+                <input type="radio" id="javascript" name="linguagem" required/>
+                <label for="javascript">JAVASCRIPT</label>
+            </div>
+            <div>
+                <label for="cDescricao">Fale sobre você:</label>
+                <textarea id="cDescricao" name="descricao" placeholder="Fale sobre seus hobbies, etc" required></textarea>
+            </div>
+            <div>
+                <label for="cEscolaridade">Escolaridade:</label>
+                <select id="cEscolaridade" name="escolaridade" required>
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option>Ensino Fundamental Completo</option>
+                    <option>Ensino Médio Completo</option>
+                    <option>Ensino Superior Completo</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cReceberEmail" name="receberEmail" required/>
+                <label for="cReceberEmail">Quero receber emails promocionais</label>
+            </div>
+
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+            <!-- Indica para o form que este botão tem outra função -->
+            <div>
+                <button type="button">Ajuda</button>
+            </div>
+        </form>
+    </body>
+</html>
+
+    </form>
+</body>
+</html>
