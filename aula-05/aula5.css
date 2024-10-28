@@ -1,0 +1,83 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo {
+    color: darkblue;
+}
+
+/* Estilo da seção 'Sobre Mim' */
+.sobre-mim {
+    padding: 20px;
+}
+
+.sobre-mim .conteudo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sobre-mim p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+section{
+    display: block;
+    margin-right:20px ;
+    margin-left:20px ;
+
+}
+
+.arquivo-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+/* Hobbies */
+ul {
+    padding-left: 20px;
+}
+
+.hobby-item {
+    color: darkgreen;
+    font-size: 1.2em;
+    list-style-type: circle;
+    margin: 5px 0;
+}
+
+.hobby-item:hover {
+    color: orange;
+}
+
+/* Links */
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: gray;
+}
+
+/* Rodapé */
+.footer {
+    background-color: lightblue;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer:hover {
+    border: 2px solid darkblue;
+}
