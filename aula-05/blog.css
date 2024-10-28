@@ -1,0 +1,43 @@
+body{
+    font-family: Arial;
+}
+
+.art-post .art-titulo{
+    color: coral;
+}
+
+.art-post .art-autor{
+    color:gray;
+}
+
+#titulo{
+    color: green; 
+}
+
+.art-link{
+    color:aqua;
+}
+
+
+.art-link:hover{
+    color:rgb(36, 87, 87);
+}
+
+.art-link:visited{
+    color:rgb(225, 18, 218);
+}
+
+.art-link:active{
+    color:rgb(211, 70, 19);
+}
+
+.art-link:focus{
+    border: 2px solid black;
+}
+
+#titulo:hover{
+    background: pink;
+    display: flex;
+    justify-content: center;
+}
+
