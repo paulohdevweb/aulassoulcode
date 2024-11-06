@@ -23,4 +23,11 @@ for (let i=0; i < tam; i++){
 // }
 
 
+let numeros=[12,90,22,17,56,49,46,34,10];
+let i=0;
+let soma=0;
 
+while ( i < numeros.length){
+    soma += numeros[i];
+    i++;
+}
