@@ -1,7 +1,5 @@
 // 1. Crie um programa que receba um vetor de números e mostre a soma de todos os elementos. Utilize um loop while para percorrer o vetor e somar cada elemento.
 
-
-
 // Vetor de números predefinido
 const lista = [12, 34, 56, 123, 98, 96];
 
@@ -44,11 +42,11 @@ console.log("Quantidade de números pares:", nPares);
 
 
 // Vetor de strings predefinido
-const frutas = ["Carlos", "Ines", "João", "Marcos", "Zizzo"];
+const nomes = ["Carlos", "Ines", "João", "Marcos", "Zizzo"];
 
 // Loop for...of para exibir mensagem personalizada
-for (const fruta of frutas) {   //  uso do for each aprendido na aula 
-    console.log("Olá, sejam muito bem vindos ao campeonato de basquete universitário!!!:", fruta);
+for (const nome of nomes) {   //  uso do for each aprendido na aula 
+    console.log("Olá, sejam muito bem vindos ao campeonato de basquete universitário!!!:", nome);
 }
 
 

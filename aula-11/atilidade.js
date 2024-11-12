@@ -16,7 +16,7 @@ if(notaAluno < 60){
 // "Idoso" se a idade for 65 ou mais.
 // Utilize if, else if e else para resolver a questão.
 
-let idade= 666;
+let idade= -34;
 
 if (idade < 12) {
     console.log("Criança");
@@ -79,7 +79,7 @@ switch(mes) {
 
 
     
-// 4. Crie uma função que recebe um nome de usuário e uma senha como parâmetros e verifica se eles correspondem a valores predefinidos, como:
+// 4. Crie um programa que recebe um nome de usuário e uma senha como parâmetros e verifica se eles correspondem a valores predefinidos, como:
 // usuario = "admin"
 // senha = "12345"
 // Se o usuário e a senha estiverem corretos, retorne "Login bem-sucedido".

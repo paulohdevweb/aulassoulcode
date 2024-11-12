@@ -31,3 +31,7 @@ while ( i < numeros.length){
     soma += numeros[i];
     i++;
 }
+
+
+/// aula de hj 07/11
+console.log("*******************************************")
